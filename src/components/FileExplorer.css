@@ -1,0 +1,58 @@
+*{
+    background-color: rgb(4, 4, 87);
+}
+
+h1{
+    color: white;
+}
+.file-explorer {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    border: 1px solid #ccc;
+    max-width: 300px;
+    margin-left: 10rem;
+
+  }
+  
+  .folder {
+    margin: 5px;
+    padding: 5px;
+    /* border: 1px solid #ddd; */
+  }
+  
+  .folder-name {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+  }
+  
+
+  
+  .file {
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  
+  .file-icon {
+    margin-right: 9px;
+  }
+
+  .context-menu{
+    color: white;
+  }
+  
+  /* .file-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex-grow: 1;
+  } */
+  
